@@ -9,3 +9,6 @@ def custom_title(string):
         words[i] = words[i][0].upper() + words[i][1:].lower()
     # Join the words back together
     return ' '.join(words)
+
+# Prompt user to input a string
+string = input("Enter a string: ")
