@@ -18,3 +18,6 @@ string = input("Enter a string: ")
 
 # Apply the custom swapcase function
 result = custom_swapcase(string)
+
+# Print the result
+print(f"String after applying custom swapcase: '{result}'")
