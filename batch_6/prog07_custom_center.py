@@ -22,3 +22,6 @@ width = int(input("Enter the total width: "))
 
 # Apply the custom center function
 result = custom_center(string, width)
+
+# Print the result
+print(f"String after applying custom center: '{result}'")
