@@ -11,3 +11,6 @@ def custom_ljust(string, spaces):
 # Prompt user to input a string and number of spaces to add
 string = input("Enter a string: ")
 spaces = int(input("Enter number of spaces to input at the end: "))
+
+# Apply the custom ljust function
+result = custom_ljust(string, spaces)
