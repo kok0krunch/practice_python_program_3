@@ -4,3 +4,6 @@
 # Prompt user to enter a string and a prefix to remove
 string = input("Enter a string: ")
 prefix = input("Enter the prefix to remove: ")
+
+# Remove the prefix from the string (if it exists at the beginning)
+result = string.replace(prefix, "", 1)  # Replace the first occurrence of the prefix with an empty string
