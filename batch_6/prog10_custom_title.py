@@ -12,3 +12,6 @@ def custom_title(string):
 
 # Prompt user to input a string
 string = input("Enter a string: ")
+
+# Apply the custom title function
+result = custom_title(string)
