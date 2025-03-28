@@ -7,3 +7,7 @@ def custom_ljust(string, spaces):
         return string + ' ' * spaces # Add the spaces to the end of the string
     else:
         return string
+    
+# Prompt user to input a string and number of spaces to add
+string = input("Enter a string: ")
+spaces = int(input("Enter number of spaces to input at the end: "))
