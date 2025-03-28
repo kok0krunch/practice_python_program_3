@@ -14,3 +14,6 @@ spaces = int(input("Enter number of spaces to input at the end: "))
 
 # Apply the custom ljust function
 result = custom_ljust(string, spaces)
+
+# Print the result
+print(f"String after applying custom ljust: '{result}'")
