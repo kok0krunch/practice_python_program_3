@@ -13,3 +13,6 @@ for char in string:
         lowercase_string += char.swapcase() # Convert the uppercase character to lowercase and add it to the result string
     else:
         lowercase_string += char
+        
+# Print the lowercase version of the input string
+print("String after converting to lowercase:", lowercase_string)
