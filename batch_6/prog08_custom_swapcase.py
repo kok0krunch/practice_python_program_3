@@ -15,3 +15,6 @@ def custom_swapcase(string):
 
 # Prompt user to enter a string
 string = input("Enter a string: ")
+
+# Apply the custom swapcase function
+result = custom_swapcase(string)
