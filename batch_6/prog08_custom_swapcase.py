@@ -12,3 +12,6 @@ def custom_swapcase(string):
         else:
             swapped_string += char  # Keep the character as is if it's not a letter
     return swapped_string
+
+# Prompt user to enter a string
+string = input("Enter a string: ")
