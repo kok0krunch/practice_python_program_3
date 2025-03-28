@@ -15,3 +15,6 @@ string = input("Enter a string: ")
 
 # Apply the custom title function
 result = custom_title(string)
+
+# Print the result
+print(result)
