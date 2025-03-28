@@ -11,4 +11,10 @@ def endswith(string, suffix):
     if string[-len(suffix):] == suffix:
         return True
     else:
-        return False  
+        return False
+    
+# Check if the string ends with the given suffix and print the result
+if endswith(string, suffix):
+    print("The string ends with:", suffix)
+else:
+    print("The string DOES NOT end with:", suffix)   
