@@ -3,3 +3,6 @@
 
 # Prompt user to input a string
 string = input("Enter a string: ")
+
+# Print the string with the first letter capitalized
+print("String after capitalizing the first letter:", string.title())
