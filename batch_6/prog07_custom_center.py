@@ -19,3 +19,6 @@ def custom_center(string, width):
 # Input from the user
 string = input("Enter a string: ")
 width = int(input("Enter the total width: "))
+
+# Apply the custom center function
+result = custom_center(string, width)
