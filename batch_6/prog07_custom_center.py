@@ -15,3 +15,7 @@ def custom_center(string, width):
     
     # Add the spaces to the left and right sides of the string
     return ' ' * left_spaces + string + ' ' * right_spaces
+
+# Input from the user
+string = input("Enter a string: ")
+width = int(input("Enter the total width: "))
