@@ -7,3 +7,7 @@ def find_index(string, substring):
         if string[i:i + len(substring)] == substring:
             return i  # Return the index if found
     return None
+
+# Prompt user to enter a string and a substring to find its index
+string = input("Enter a string: ")
+substring = input("Enter the substring to find its index: ")
