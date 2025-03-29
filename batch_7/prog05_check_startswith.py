@@ -11,3 +11,9 @@ def startswith(string, prefix):
 # Prompt user to enter a string and a prefix to check
 string = input("Enter a string: ")
 prefix = input("Enter the prefix to check: ")
+
+# Check if the string starts with the given prefix and print the result
+if startswith(string, prefix):
+    print("The string starts with:", prefix)
+else:
+    print("The string DOES NOT start with:", prefix)
