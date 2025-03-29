@@ -7,3 +7,6 @@ def is_uppercase(string):
         if char.islower():  # Check if the character is lowercase
             return False
     return True
+
+# Prompt user to enter a string
+string = input("Enter a string: ")
