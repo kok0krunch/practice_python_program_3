@@ -7,3 +7,6 @@ suffix = input("Enter the suffix to remove: ")
 
 # Remove the suffix from the string (if it exists at the ending)
 result = string.replace(suffix, "", -1) # Replace the first occurrence of the suffix with an empty string
+
+# Print the modified string without suffix
+print("String after removing the suffix:", result)
