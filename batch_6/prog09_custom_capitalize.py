@@ -4,5 +4,10 @@
 # Prompt user to input a string
 string = input("Enter a string: ")
 
-# Print the string with the first letter capitalized
-print("String after capitalizing the first letter:", string.title())
+# Create a function to replicate capitalize()
+def custom_capitalize(string):
+    # Check if the string is empty
+    if not string:
+        return string
+    # Capitalize the first letter and lower the rest
+    return string[0].upper() + string[1:].lower()
