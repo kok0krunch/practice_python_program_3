@@ -8,3 +8,7 @@ def custom_zfill(number, width):
     else:
         zeros = width - len(number) # Calculate the number of zeros needed to reach the desired width
         return '0' * zeros + number # Add the zeros to the left side of the number
+
+# Prompt user to enter a number and the total width
+number = input("Enter a number: ")
+width = int(input("Enter the total width of the number: "))
