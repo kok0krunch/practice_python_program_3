@@ -13,3 +13,6 @@ string = input("Enter a string: ")
 
 # Check if the string is lowercase using the custom function
 string = is_lowercase(string)
+
+# Print the result
+print("Is the string in lowercase?", string)
