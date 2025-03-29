@@ -11,3 +11,12 @@ def find_rindex(string, substring):
 # Prompt user to enter a string and a substring to find its index
 string = input("Enter a string: ")
 substring = input("Enter the substring to find its last index: ")
+
+# Apply the custom index function
+result = find_rindex(string, substring)
+
+# Print the result
+if result is None:
+    print("Not found in string")
+else:
+    print(f"Last index of '{substring}': {result}")
