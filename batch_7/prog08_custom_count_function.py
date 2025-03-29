@@ -12,3 +12,7 @@ def custom_count(string, substring):
         count += 1 # Increment the count if found
         start += len(substring) # Move to the end of the found substring
     return count
+
+# Prompt user to enter a string and a substring to count
+string = input("Enter a string: ")
+substring = input("Enter the substring to count: ")
