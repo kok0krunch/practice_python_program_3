@@ -7,3 +7,7 @@ def startswith(string, prefix):
         return True
     else:
         return False
+
+# Prompt user to enter a string and a prefix to check
+string = input("Enter a string: ")
+prefix = input("Enter the prefix to check: ")
