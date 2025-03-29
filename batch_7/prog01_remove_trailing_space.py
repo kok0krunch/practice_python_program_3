@@ -3,3 +3,7 @@
 
 # Prompt user to input a string with trailing spaces
 string = input("Enter a string with trailing spaces: ")
+
+# Remove trailing spaces using a loop
+while len(string) > 0 and string[-1] == ' ':  # Check if the last character is a space
+        string = string[:-1]  # Remove the last character
