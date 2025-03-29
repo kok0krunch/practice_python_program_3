@@ -8,3 +8,7 @@ def custom_rjust(string, width):
     else:    
         spaces = width - len(string) # Calculate the number of spaces needed to reach the desired width
         return ' ' * spaces + string # Add the spaces to the left side of the string
+    
+# Prompt user to enter a string and the total width
+string = input("Enter a string: ")
+width = int(input("Enter the total width of the string: "))
