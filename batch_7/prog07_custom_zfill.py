@@ -12,3 +12,9 @@ def custom_zfill(number, width):
 # Prompt user to enter a number and the total width
 number = input("Enter a number: ")
 width = int(input("Enter the total width of the number: "))
+
+# Apply the custom zfill function
+result = custom_zfill(number, width)
+
+# Print the result
+print(f"Result: {result}")
