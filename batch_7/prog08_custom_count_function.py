@@ -16,3 +16,9 @@ def custom_count(string, substring):
 # Prompt user to enter a string and a substring to count
 string = input("Enter a string: ")
 substring = input("Enter the substring to count: ")
+
+# Apply the custom count function
+result = custom_count(string, substring)
+
+# Print the result
+print(f"The '{substring}' appears {result} times.")
