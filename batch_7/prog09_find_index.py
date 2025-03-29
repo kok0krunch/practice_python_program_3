@@ -11,3 +11,12 @@ def find_index(string, substring):
 # Prompt user to enter a string and a substring to find its index
 string = input("Enter a string: ")
 substring = input("Enter the substring to find its index: ")
+
+# Apply the custom index function
+result = find_index(string, substring)
+
+# Print the result
+if result is None:
+    print("Not found in string")
+else:
+    print(f"The index of '{substring}' in the string is: {result}")
