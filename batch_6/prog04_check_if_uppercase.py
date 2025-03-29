@@ -10,3 +10,6 @@ def is_uppercase(string):
 
 # Prompt user to enter a string
 string = input("Enter a string: ")
+
+# Check if the string is uppercase using the custom function
+string = is_uppercase(string)
