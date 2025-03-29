@@ -12,3 +12,9 @@ def custom_rjust(string, width):
 # Prompt user to enter a string and the total width
 string = input("Enter a string: ")
 width = int(input("Enter the total width of the string: "))
+
+# Apply the custom rjust function
+result = custom_rjust(string, width)
+
+# Print the result
+print(f"Result: '{result}'")
