@@ -11,3 +11,9 @@ def custom_capitalize(string):
         return string
     # Capitalize the first letter and lower the rest
     return string[0].upper() + string[1:].lower()
+
+# Apply the custom capitalize function
+result = custom_capitalize(string)
+
+# Print the result
+print(result)
